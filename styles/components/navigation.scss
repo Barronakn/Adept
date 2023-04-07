@@ -1,0 +1,94 @@
+.navigation {
+  background: url("./adept-hero.webp") no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.navigation .b-radius {
+  border-radius: 50px;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+// -------
+
+@media screen and (min-width: 1700px) {
+  .navigation .px-20 {
+    width: 1700px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .other h1 {
+    font-size: 4rem;
+  }
+  .other p {
+    font-size: 1rem;
+  }
+  .other a {
+    padding: 1rem 3rem;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .other {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .other .pt-80 {
+    width: 100%;
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    z-index: 0;
+  }
+
+  .menuLogo,
+  .delete {
+    display: block;
+    z-index: 50;
+  }
+
+  .menuLogo {
+    margin-top: -10px;
+  }
+
+  .nn {
+    display: none;
+  }
+
+  .menu {
+    flex-direction: column;
+    background-color: #6e6d6d;
+    padding: 25px;
+    text-align: center;
+    height: 350px;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .other h1 {
+    font-size: 3rem;
+  }
+  .other a {
+    font-size: 20px;
+    padding: 0.5rem 1.5rem;
+  }
+  .navigation .px-20 {
+    padding: 20px;
+  }
+}

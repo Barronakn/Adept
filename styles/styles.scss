@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings.scss";
+@import "./components/navigation.scss";
+@import "./components/collaborate.scss";
+@import "./components/hiring.scss";
+@import "./components/model.scss";
+@import "./components/saying.scss";
+@import "./components/vision.scss";
+@import "./components/footer.scss";

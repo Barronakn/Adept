@@ -1,0 +1,32 @@
+.read {
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .collaborate {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .collaborate p {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .collaborate .read {
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .collaborate {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .collaborate p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 50px;
+  }
+}

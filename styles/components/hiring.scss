@@ -1,0 +1,12 @@
+.border-bottom {
+  border-bottom: 2px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .hiring a p {
+    font-size: 18px;
+  }
+  .hiring a p span {
+    font-size: 15px;
+  }
+}

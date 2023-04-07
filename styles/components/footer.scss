@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .footer .mb-20 {
+    text-align: center;
+  }
+  .footer .mb-20 .pt-14 {
+    width: 100%;
+  }
+  .footer .pt-10 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .footer .pt-10 .logo {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .footer .icon {
+    display: none;
+  }
+}
