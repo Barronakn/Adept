@@ -54,22 +54,24 @@ const Navigation = () => {
           className="menuLogo cursor-pointer w-10 h-10 none"
           alt="menu"
         />
-        <div className="menu nn flex gap-7 text-xl">
+        <div className="menu nn">
           <img
             src="./x.svg"
             onClick={handleDelete}
             className="delete cursor-pointer w-10 h-10 none"
             alt="x"
           />
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/careers">Careers</NavLink>
-          </li>
-          <li>
-            <NavLink to="/blog">Blog</NavLink>
-          </li>
+          <ul className="flex gap-7 text-xl">
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/careers">Careers</NavLink>
+            </li>
+            <li>
+              <NavLink to="/blog">Blog</NavLink>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="other z-0 px-20">

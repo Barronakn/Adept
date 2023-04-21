@@ -69,14 +69,20 @@
   .menu {
     flex-direction: column;
     background-color: #6e6d6d;
-    padding: 25px;
     text-align: center;
-    height: 350px;
+    height: auto;
+    padding: 25px;
     z-index: 100;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

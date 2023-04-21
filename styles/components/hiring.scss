@@ -10,3 +10,10 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .hiring {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
