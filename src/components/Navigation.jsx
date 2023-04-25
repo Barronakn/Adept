@@ -44,7 +44,7 @@ const Navigation = () => {
         className="w-full z-10 fixed top-0 px-20 pt-10 pb-4 flex justify-between"
       >
         <div className="logo w-24 h-12">
-          <NavLink to="/">
+          <NavLink to="/Adept">
             <img src="./adept.svg" alt="" />
           </NavLink>
         </div>

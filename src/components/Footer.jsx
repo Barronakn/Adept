@@ -40,7 +40,7 @@ const Footer = () => {
           </li>
         </div>
         <div className="logo w-24 h-12">
-          <NavLink to="/">
+          <NavLink to="/Adept">
             <img src="./adept-whie.svg" alt="" />
           </NavLink>
         </div>
